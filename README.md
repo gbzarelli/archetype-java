@@ -1,4 +1,4 @@
-# Archetype Java, basic
+# Archetype Java
 
  This Archetype creates:
  
