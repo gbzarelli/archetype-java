@@ -7,25 +7,18 @@
   - External properties folder
   - Classes as an sample
   
-  This example shows how to create custom variables and change them to existing ones
-  see at: [archetype-metadata.xml](src/main/resources/META-INF/maven/archetype-metadata.xml)
-  
-  sample:
-  ```xml
-   <requiredProperty key="greeting-msg">
-              <defaultValue>Hi, I was generated from an archetype!</defaultValue>
-   </requiredProperty>
-   <requiredProperty key="artifactIdLower">
-              <defaultValue>${artifactId.toLowerCase()}</defaultValue>
-   </requiredProperty>
-   ```
-
 ## Sample of project created with this archetype
+
 ![](images/structure.png)
 
 ## How to use
 
  In IntelliJ:
+  
+ - Open the archetype project and run maven install
+ 
+ ![](images/install.png)
+ 
  - File -> New -> Project -> Maven -> (mark) Create from archetype -> Add Archetype
  
 ![](images/add_archetype.png)
